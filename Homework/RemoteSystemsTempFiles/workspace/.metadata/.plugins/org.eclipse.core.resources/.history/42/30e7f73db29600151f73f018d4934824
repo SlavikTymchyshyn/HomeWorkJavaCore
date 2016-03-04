@@ -1,0 +1,31 @@
+package hometask1;
+
+public class First {
+
+	public static void main(String[] args) {
+		double a=6;
+		double b=3;
+		double c=1;
+		double x1;
+		double x2;
+
+		x1 = (Math.sqrt(Math.pow(b, 2) - 4 * a * c) - b) / (2 * a);
+		x2 = (Math.sqrt(Math.pow(b, 2) - 4 * a * c) + b) / (2 * a);
+		
+		if (x1!=0){System.out.println("x1 = " + x1);}
+		else {System.out.println("No result");}
+		if (x2!=0){System.out.println("x2 = " + x2);}
+		else {System.out.println("No result");}
+		
+			
+		
+		//System.out.println("No result");
+		//System.out.println("Is result");
+		//System.out.println("x1 = " + x1);
+		//System.out.println("x2 = " + x2);
+
+	}
+}
+	
+
+

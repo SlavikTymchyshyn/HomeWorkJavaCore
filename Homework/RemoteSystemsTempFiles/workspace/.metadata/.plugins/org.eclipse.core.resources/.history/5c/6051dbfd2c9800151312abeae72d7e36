@@ -1,0 +1,12 @@
+package home2;
+
+public class mass1 {
+
+	public static void main(String[] args) {
+		int[] ar1=new int[10];
+		for (int i = 0; i < 10; i++) {for (ar1[i]=2; ar1[i]<20; ar1[i]=+2);}
+		System.out.println(ar1);
+
+	}
+
+}

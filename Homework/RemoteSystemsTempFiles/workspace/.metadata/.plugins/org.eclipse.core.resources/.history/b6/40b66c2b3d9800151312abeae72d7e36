@@ -1,0 +1,14 @@
+package home2;
+
+public class Twoarray {
+
+	public static void main(String[] args) {
+		int twoar[][] =new int[10][10];
+		for (int i=9; i>-1;i--){for (int j=0; j<10;j++){twoar[i][j]=-(2*i+1)+(2*j+2);
+		if (twoar[i][j]>9){System.out.println(twoar[i][j]+" ");}
+		else if (twoar[i][j]<0){System.out.println(twoar[i][j]+" ");}else{System.out.println(twoar[i][j]+"  ");}
+		System.out.println();
+		}}}}
+
+		
+

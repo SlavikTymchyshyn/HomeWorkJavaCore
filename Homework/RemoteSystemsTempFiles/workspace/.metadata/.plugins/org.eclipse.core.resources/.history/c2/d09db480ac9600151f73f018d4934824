@@ -1,0 +1,15 @@
+package hometask1;
+
+public class First {
+					
+	public static void main(String[] args, Object x1) {
+		double a = 8;
+		double b = 4;
+		double c = 2;
+		
+		x1=((Math.sqrt(Math.sqr(b)-4*a*c))-b)/(2*a);
+		System.out.println("x1 = " +x1);
+	}
+	}
+
+

@@ -1,0 +1,61 @@
+package hometask1;
+
+public class Thirdtask {
+	static int add(int a,int b){
+		return a+b;
+		}
+		
+	static int minus(int a,int b){
+		return a-b;
+		
+		}
+	static int mnozhn(int a,int b){
+		return a*b;
+		
+		}
+	static double divide(int a,int b){
+		return a/b;
+		}
+	public static void main(String[] args) {
+	char znak;
+	znak = ' ';
+	int a = 12;
+	int b = 4;
+		
+	//	double c =divide(12,4,'+');
+	//	System.out.println(c);}}
+    //43+42*45-47/
+	switch (znak) {
+	case '+': {int c = add(a,b);
+		System.out.println("case +");
+		System.out.println(c);
+		break;
+	}
+	case '-': {int c = minus(a,b);
+		System.out.println("case -");
+		System.out.println(c);
+		break;
+	}
+	case '*': {int c = mnozhn(a,b);
+		System.out.println("case *");
+		System.out.println(c);
+		break;
+	}
+	case '/': {double c = divide(a,b);
+		System.out.println("case /");
+		System.out.println(c);
+		break;
+	}
+	default: {
+		System.out.println("default");
+		System.out.println(znak);
+	}
+	
+    }}}
+
+    
+	
+	
+
+
+

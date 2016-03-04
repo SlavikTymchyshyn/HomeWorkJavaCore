@@ -1,0 +1,16 @@
+package hometask1;
+
+public class First {
+					
+	public static void main(String[] args) {
+		double a = 8;
+		double b = 6;
+		double c = 3;
+		double x;
+		
+		x=((Math.sqrt(Math.pow(b,2)-4*a*c))-b)/(2*a);
+		System.out.println("x = " +x);
+	}
+	}
+
+

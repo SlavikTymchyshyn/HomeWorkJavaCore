@@ -1,0 +1,16 @@
+package pack1;
+
+public class Hello {
+
+	public static void main(String[] args) {
+System.out.println("Greatful things");
+System.out.println("djkfhdskjfh"); 
+System.out.println("*  * *** *     *     ***");
+System.out.println("*  * *   *     *    *   *");
+System.out.println("**** *** *     *    *   *");
+System.out.println("*  * *   *     *    *   *");
+System.out.println("*  * *** ****  ****  ***");
+	}
+//System.out.println для виводу стрічкових елементів 
+//public static void main(String[] args)  - main метод точка входу в програму
+}

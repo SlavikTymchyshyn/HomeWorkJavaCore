@@ -1,0 +1,45 @@
+package hometask1;
+
+public class Calculates {
+	static int add(int a,int b,char znak){
+		return a+b+znak*0;
+		}
+		
+	static int minus(int a,int b,char znak){
+		return a-b+znak*0;
+		
+		}
+	static int mnozhn(int a,int b,char znak){
+		return a*b+znak*0;
+		
+		}
+	static double divide(int a,int b,char znak){
+		return a/b+znak*0;
+		}		
+	char znak =43;
+	int a=12;
+	int b=4;
+	//public static void main(String[] args)  {
+	//	double c =divide(12,4,'+');
+	//	System.out.println(c);}}
+
+	
+    //43+42*45-47/
+    if (znak=43) {int x =add(a,b,znak);
+		System.out.println(x);
+	} else if (znak=45) {int x =minus(a,b,znak);
+	System.out.println(x);
+	
+} else if (znak=42) {int x =mnozhn(a,b,znak);
+System.out.println(x);
+
+} else if (znak=47) {int x =divide(a,b,znak);
+System.out.println(x);
+}}
+
+    
+	
+	
+
+
+

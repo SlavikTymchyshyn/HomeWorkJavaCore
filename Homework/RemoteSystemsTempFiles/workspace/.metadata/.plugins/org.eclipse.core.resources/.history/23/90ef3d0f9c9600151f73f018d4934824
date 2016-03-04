@@ -1,0 +1,33 @@
+package hometask1;
+
+public class Second {
+
+	public static void main(String[] args) {
+		int a;
+		a = 2;
+		System.out.println("for");
+		for (int i = 1; i <= 10; i++) {
+			System.out.println(Math.pow(a, i));
+		}
+		//43+42*45-47/
+System.out.println("switch");
+char w=43;
+int s =12;
+int b =4;
+switch (w) {
+case w = 43: {
+	System.out.println("case 1");
+	System.out.println(s+b);
+	break;
+}
+case w=45: {
+	System.out.println("case 2");
+	System.out.println(w++);
+	break;
+}
+default: {
+	System.out.println("default");
+	System.out.println(w/2);
+}
+}}}
+
